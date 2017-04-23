@@ -9,13 +9,15 @@
 
 <body>
   <form action="http://echo.htmlacademy.ru" method="get">
-    <header class="main-header">
+    <header class="main-header clearfix">
       <div class="container">
-        <div class="index-logo">
-          <img src="img/logo.png" width="111" height="24" alt="Барбершоп «Бородинский»">
-        </div>
         <nav class="main-navigation">
           <ul>
+            <li>
+              <a href="#" class="index-logo">
+                <img src="img/logo.png" width="111" height="24" alt="Барбершоп «Бородинский»">
+              </a>
+            </li>
             <li>
               <a href="#">Информация</a>
             </li>
@@ -40,7 +42,7 @@
     </header>
     <main class="container">
       <h1 class="top-heading">Средства для ухода</h1>
-      <nav class="breadcrumbs">
+      <div class="breadcrumbs">
         <ul>
           <li>
             <a href="#">Главная</a>
@@ -49,58 +51,60 @@
             <a href="#">Магазин</a>
           </li>
           <li>
-            <p>Средства для ухода</p>
+            <a><span>Средства для ухода</span></a>
           </li>
         </ul>
-      </nav>
+      </div>
       <div class="left-column">
         <section class="manufacturer">
-          <h2 class="heading">Производители:</h2>
+          <b class="heading">Производители:</b><br>
           <label>
     <input type="checkbox" name="checkbox-1" value="baxter" checked>
-      Baxter of California
+      Baxter of California<br>
     </label>
           <label>
     <input type="checkbox" name="checkbox-2" value="natty">
-      Mr Natty
+      Mr Nattyxx<br>
     </label>
           <label>
     <input type="checkbox" name="checkbox-3" value="suavecito" checked>
-      Suavecito
+      Suavecito<br>
     </label>
           <label>
     <input type="checkbox" name="checkbox-4" value="malin">
-      Malin-goetz
+      Malin-goetz<br>
     </label>
           <label>
     <input type="checkbox" name="checkbox-5" value="murray">
-      Murray's
+      Murray's<br>
     </label>
           <label>
     <input type="checkbox" name="checkbox-6" value="american" checked>
-      American Crew
+      American Crew<br>
     </label>
         </section>
         <section class="groups">
-          <h2 class="heading">Группы товаров:</h2>
+          <b class="heading">Группы товаров:</b><br>
           <label>
     <input type="radio" name="filter-2" value="razor">
-      Бритвенные принадлежности
+      Бритвенные принадлежности<br>
     </label>
           <label>
     <input type="radio" name="filter-2" value="care" checked>
-      Средства для ухода
+      Средства для ухода<br>
     </label>
           <label>
     <input type="radio" name="filter-2" value="access">
-      Аксессуары
+      Аксессуары<br>
     </label>
           <button type="submit">Показать</button>
         </section>
       </div>
       <div class="item-catalog">
         <article class="item-card">
-          <a href="#"><img src="img/item-1.jpg" width="220" height="165" alt="Набор для путешествий «BAXTER OF CALIFORNIA»">Набор для путешествий «Baxter of California»</a>
+          <a href="#"><img src="img/item-1.jpg" width="220" height="165" alt="Набор для путешествий «BAXTER OF CALIFORNIA»">
+            <h2>Набор для путешествий<br> «Baxter of California»</h2>
+          </a>
           <div class="item-buy">
             <div class="price">
               2 900 Руб.
@@ -109,7 +113,9 @@
           </div>
         </article>
         <article class="item-card">
-          <a href="#"><img src="img/item-2.jpg" width="220" height="165" alt="Увлажняющий кондиционер «BAXTER OF CALIFORNIA»">Увлажняющий кондиционер «Baxter of California»</a>
+          <a href="#"><img src="img/item-2.jpg" width="220" height="165" alt="Увлажняющий кондиционер «BAXTER OF CALIFORNIA»">
+            <h2>Увлажняющий кондиционер<br> «Baxter of California»</h2>
+          </a>
           <div class="item-buy">
             <div class="price">
               750 Руб.
@@ -118,7 +124,9 @@
           </div>
         </article>
         <article class="item-card">
-          <a href="#"><img src="img/item-3.jpg" width="220" height="165" alt="Гель для волос «SUAVECITO»">Гель для волос «Suavecito»</a>
+          <a href="#"><img src="img/item-3.jpg" width="220" height="165" alt="Гель для волос «SUAVECITO»">
+            <h2>Гель для волос<br> «Suavecito»</h2>
+          </a>
           <div class="item-buy">
             <div class="price">
               290 Руб.
@@ -127,7 +135,9 @@
           </div>
         </article>
         <article class="item-card">
-          <a href="#"><img src="img/item-4.jpg" width="220" height="165" alt="Глина для укладки «AMERICAN CREW»">Глина для укладки «American Crew»</a>
+          <a href="#"><img src="img/item-4.jpg" width="220" height="165" alt="Глина для укладки «AMERICAN CREW»">
+            <h2>Глина для укладки<br> «American Crew»</h2>
+          </a>
           <div class="item-buy">
             <div class="price">
               500 РУБ.
@@ -136,7 +146,9 @@
           </div>
         </article>
         <article class="item-card">
-          <a href="#"><img src="img/item-5.jpg" width="220" height="165" alt="Гель для волос «AMERICAN CREW»">Гель для волос «American Crew»</a>
+          <a href="#"><img src="img/item-5.jpg" width="220" height="165" alt="Гель для волос «AMERICAN CREW»">
+            <h2>Гель для волос<br> «American Crew»</h2>
+          </a>
           <div class="item-buy">
             <div class="price">
               300 РУБ.
@@ -145,7 +157,9 @@
           </div>
         </article>
         <article class="item-card">
-          <a href="#"><img src="img/item-6.jpg" width="220" height="165" alt="Набор для бритья «BAXTER OF CALIFORNIA»">Набор для бритья «Baxter of California»</a>
+          <a href="#"><img src="img/item-6.jpg" width="220" height="165" alt="Набор для бритья «BAXTER OF CALIFORNIA»">
+            <h2>Набор для бритья<br> «Baxter of California»</h2>
+          </a>
           <div class="item-buy">
             <div class="price">
               3 900 РУБ.
@@ -174,7 +188,7 @@
           <a href="#" class="fb">fb</a>
           <a href="#" class="insta">instagram</a>
         </section>
-        <section>
+        <section class="copyright">
           <p>Разработано:</p>
           <a href="#">htmlacademy.ru</a>
         </section>
